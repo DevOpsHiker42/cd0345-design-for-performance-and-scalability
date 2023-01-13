@@ -23,6 +23,6 @@ resource "aws_instance" "Udacity_M4" {
   instance_type = "m4.large"
   count = 2
   tags = {
-    Name = "Udacity T2"
+    Name = "Udacity M4"
   }
 }

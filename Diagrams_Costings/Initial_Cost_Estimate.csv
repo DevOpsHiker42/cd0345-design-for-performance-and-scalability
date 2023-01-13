@@ -1,0 +1,23 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,9163.380000000003,109960.56,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,105,1260.00,USD,Hosted Zones (2)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,20.5,246.00,USD,"Data transfer out to internet (100 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (10000000 per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,4485.12,53821.44,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 8), Enable disabled, Advance EC2 instance (m5.4xlarge), Pricing strategy (), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,4160.2,49922.40,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (30 GB), Nodes (2), Instance Type (db.m2.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,39.79,477.48,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,51.47,617.64,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (8 GB per hour)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,Working days per month (22)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,65.78,789.36,USD,Number of NAT Gateways (2)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

@@ -1,1 +1,4 @@
-# TODO: Define the output variable for the lambda function.
+output "lambda_arn" {
+  description = "The ARN of the greet_lambda function"
+  value       = aws_lambda_function.greet_lambda.arn
+}

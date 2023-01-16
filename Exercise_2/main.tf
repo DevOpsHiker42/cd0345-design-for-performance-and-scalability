@@ -24,12 +24,12 @@ EOF
 }
 
 resource "aws_lambda_function" "greet_lambda" {
-  filename      = "lambda.py"
+  filename      = "lambda.py.zip"
   function_name = "greeting_function"
   role          = aws_iam_role.iam_for_lambda.arn
   handler       = "index.test"
 
-  source_code_hash = filebase64sha256("lambda.py")
+  source_code_hash = filebase64sha256("lambda.py.zip")
 
   runtime = "python3.9"
 
